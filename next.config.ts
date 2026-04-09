@@ -1,17 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-  
-
-  reactStrictMode: true, 
+  reactStrictMode: true,
 
   typescript: {
-    ignoreBuildErrors: false, 
+    ignoreBuildErrors: false,
   },
 
   images: {
-    unoptimized: true, 
+    unoptimized: true,
   },
 
   trailingSlash: true,
