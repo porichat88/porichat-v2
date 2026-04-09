@@ -10,7 +10,7 @@
     "build": "next build",
     "build:server": "tsc -p tsconfig.server.json",
 
-    "start": "next start -p 3000",
+    "start": "next start -p $PORT",
     "start:server": "node dist/server/chat-server.js",
 
     "dev:chat": "npx tsx server/chat-server.ts",
